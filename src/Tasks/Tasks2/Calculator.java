@@ -16,13 +16,13 @@ public class Calculator {
         }
         return 0;
     }
-    public static long divNums(long a, long b) {
+    public static double divNums(long a, long b) {
         if (b != 0) {
             return a / b;
         }
         return 0;
     }
-    public static int divNums(int a, int b) {
+    public static double divNums(int a, int b) {
         if (b != 0) {
             return a / b;
         }

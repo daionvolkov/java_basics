@@ -37,13 +37,13 @@ public class Calculator {
     public static int multNums(int a, int b) {
         return a * b;
     }
-    public static double subtrNums(double a, double b) {
+    public static double subtNums(double a, double b) {
         return a - b;
     }
-    public static long subtrNums(long a, long b) {
+    public static long subtNums(long a, long b) {
         return a - b;
     }
-    public static int subtrNums(int a, int b) {
+    public static int subtNums(int a, int b) {
         return a - b;
     }
 }

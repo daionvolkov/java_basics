@@ -50,9 +50,9 @@ public class Main {
         Animal cat = new Animal("Tom", 2, "cat");
         Animal dog = new Animal("Johny", 3, "gray", "dog", true);
         Animal mouse = new Animal();
-        System.out.println(cat);
         System.out.println(dog);
         System.out.println(mouse);
+        System.out.println(cat);
     }
 
 

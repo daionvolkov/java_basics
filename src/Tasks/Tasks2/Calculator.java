@@ -5,17 +5,14 @@ public class Calculator {
         double sum = a + b;
         return sum;
     }
-
     public static long Addition(long a, long b) {
         long sum = a + b;
         return sum;
     }
-
     public static int Addition(int a, int b) {
         int sum = a + b;
         return sum;
     }
-
     public static double Division(double a, double b) {
         if (b != 0) {
             double div = a / b;

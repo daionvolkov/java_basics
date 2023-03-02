@@ -19,15 +19,13 @@ public class Calculator {
     }
     public static double divNums(long a, long b) {
         if (b != 0) {
-            double v = (double) (a) / (double) (b);
-            return v;
+            return (double) (a) / b;
         }
         return 0;
     }
     public static double divNums(int a, int b) {
         if (b != 0) {
-            double v = (double) (a) / (double) (b);
-            return v;
+            return (double) (a) / b;
         }
         return 0;
     }

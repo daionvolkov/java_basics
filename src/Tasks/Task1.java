@@ -11,7 +11,7 @@ public class Task1 {
 
         double res1 = (46 + 10) * (10 / 3.0);
         System.out.println(res1);
-        int res2 = (46 + 10) * (10 / 3);
+        double res2 = (46 + 10) * (10 / 3.0);
         System.out.println(res2);
 
         int number = 10500;

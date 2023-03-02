@@ -1,61 +1,49 @@
 package Tasks.Tasks2;
 
 public class Calculator {
-    public static double Addition(double a, double b) {
-        double sum = a + b;
-        return sum;
+    public static double addNums(double a, double b) {
+        return a + b;
     }
-    public static long Addition(long a, long b) {
-        long sum = a + b;
-        return sum;
+    public static long addNums(long a, long b) {
+        return a + b;
     }
-    public static int Addition(int a, int b) {
-        int sum = a + b;
-        return sum;
+    public static int addNums(int a, int b) {
+        return a + b;
     }
-    public static double Division(double a, double b) {
+    public static double divNums(double a, double b) {
         if (b != 0) {
-            double div = a / b;
-            return div;
+            return a / b;
         }
         return 0;
     }
-    public static long Division(long a, long b) {
+    public static long divNums(long a, long b) {
         if (b != 0) {
-            long div = a / b;
-            return div;
+            return a / b;
         }
         return 0;
     }
-    public static int Division(int a, int b) {
+    public static int divNums(int a, int b) {
         if (b != 0) {
-            int div = a / b;
-            return div;
+            return a / b;
         }
         return 0;
     }
-    public static double Multiplication(double a, double b) {
-            double multy = a * b;
-            return multy;
+    public static double multNums(double a, double b) {
+        return a * b;
     }
-    public static long Multiplication(long a, long b) {
-        long multy = a * b;
-        return multy;
+    public static long multNums(long a, long b) {
+        return a * b;
     }
-    public static int Multiplication(int a, int b) {
-        int multy = a * b;
-        return multy;
+    public static int multNums(int a, int b) {
+        return a * b;
     }
-    public static double Subtraction(double a, double b) {
-        double sub = a - b;
-        return sub;
+    public static double subtrNums(double a, double b) {
+        return a - b;
     }
-    public static long Subtraction(long a, long b) {
-        long sub = a - b;
-        return sub;
+    public static long subtrNums(long a, long b) {
+        return a - b;
     }
-    public static int Subtraction(int a, int b) {
-        int sub = a - b;
-        return sub;
+    public static int subtrNums(int a, int b) {
+        return a - b;
     }
 }

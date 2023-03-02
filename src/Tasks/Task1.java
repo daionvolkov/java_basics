@@ -24,7 +24,6 @@ public class Task1 {
         float res4 = x * y * z;
         System.out.println(res4);
 
-
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();

@@ -10,6 +10,7 @@ public class Calculator {
     public static int addNums(int a, int b) {
         return a + b;
     }
+    
     public static double divNums(double a, double b) {
         if (b != 0) {
             return a / b;
@@ -24,7 +25,7 @@ public class Calculator {
     }
     public static double divNums(int a, int b) {
         if (b != 0) {
-            return a / b;
+            return (double)(a / b);
         }
         return 0;
     }

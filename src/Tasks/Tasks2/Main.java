@@ -36,13 +36,13 @@ public class Main {
         int res_multi_int = Calculator.multNums(e, f);
         System.out.println("Результат умножения чисел типа int: "+ res_multi_int);
 
-        double res_sub_double = Calculator.subtrNums(a, b);
+        double res_sub_double = Calculator.subtNums(a, b);
         System.out.println("Результат вычитания чисел типа double: "+ res_sub_double);
 
-        long res_sub_long = Calculator.subtrNums(c, d);
+        long res_sub_long = Calculator.subtNums(c, d);
         System.out.println("Результат вычитания чисел типа long: "+ res_sub_long);
 
-        int res_sub_int = Calculator.subtrNums(e, f);
+        int res_sub_int = Calculator.subtNums(e, f);
         System.out.println("Результат вычитания чисел типа int: "+ res_sub_int);
 
 

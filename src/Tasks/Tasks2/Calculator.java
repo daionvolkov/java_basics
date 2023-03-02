@@ -24,7 +24,7 @@ public class Calculator {
     }
     public static double divNums(int a, int b) {
         if (b != 0) {
-            return (double)(a / b);
+            return a / b;
         }
         return 0;
     }

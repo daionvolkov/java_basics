@@ -24,7 +24,7 @@ public class Main {
         double res_div_long = Calculator.divNums(c, d);
         System.out.println("Результат деления чисел типа long: "+ res_div_long);
 
-        int res_div_int = Calculator.divNums(e, f);
+        double res_div_int = Calculator.divNums(e, f);
         System.out.println("Результат деления чисел типа int: "+ res_div_int);
 
         double res_multi_double = Calculator.multNums(a, b);

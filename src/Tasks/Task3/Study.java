@@ -2,11 +2,9 @@ package Tasks.Task3;
 
 public class Study {
     private String course;
-
     public String printCourse() {
         return this.course;
     }
-
     public Study(String course) {
         this.course = course;
     }

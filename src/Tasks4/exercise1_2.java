@@ -6,6 +6,10 @@ public class exercise1_2 {
     private static String resultDevThreeFive = "";
 
     public static void main(String[] args) {
+
+        DevByNumbers();
+    }
+    public static void DevByNumbers() {
         for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0 && i % 5 != 0) {
                 resultDevThree += " " + i;

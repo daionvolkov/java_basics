@@ -3,7 +3,6 @@ package Tasks4;
 import java.util.Arrays;
 
 
-
 public class exercise2_5 {
     public static void main(String[] args) {
         int[] arr = {3, 7, 12, 76, 3, 0, 544, 9};

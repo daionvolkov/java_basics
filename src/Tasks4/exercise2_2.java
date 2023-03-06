@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class exercise2_2 {
     public static void main(String[] args) {
+        showArr();
+    }
+
+    public static void showArr() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter array length: ");
         int arrLen = scan.nextInt();

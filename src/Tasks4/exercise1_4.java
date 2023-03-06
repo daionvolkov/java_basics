@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class exercise1_4 {
     public static void main(String[] args) {
+        sumNumbers();
+    }
+    public static void sumNumbers() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите первное число: ");
         int a = scan.nextInt();

@@ -4,16 +4,14 @@ import java.util.Scanner;
 
 public class exercise1_4 {
     public static void main(String[] args) {
-        sumNumbers();
+        int a = 5;
+        int b = 7;
+        int c = 10;
+        boolean res = sumNumbers(a, b, c);
+        System.out.println(res);
     }
-    public static void sumNumbers() {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Введите первное число: ");
-        int a = scan.nextInt();
-        System.out.println("Введите второе число: ");
-        int b = scan.nextInt();
-        System.out.println("Введите третье число: ");
-        int c = scan.nextInt();
-        System.out.println(a<b && b<c);
+
+    public static boolean sumNumbers(int a, int b, int c) {
+        return a < b && b < c;
     }
 }

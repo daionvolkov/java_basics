@@ -11,7 +11,6 @@ public class exercise2 {
     }
 
     public static boolean polydromWord(String word) {
-
         char[] polydromWord = new char[word.length()];
         char[] arrWord = new char[word.length()];
         for (int i = 0; i < word.length(); i++) {

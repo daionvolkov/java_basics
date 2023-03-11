@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class Cat extends Animal {
 
-    public void setAge() {
-        Scanner scan = new Scanner(System.in);
-        age = scan.nextInt();
+    public void showInfo() {
+        System.out.println(getAge());
     }
 
 

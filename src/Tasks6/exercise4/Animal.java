@@ -4,7 +4,12 @@ import java.io.Console;
 
 public class Animal {
     int age;
-    public void getAge() {
-        System.out.println(age);
+    Scanner scan = new Scanner(System.in);
+    public Animal() {
+        age = scan.nextInt();
+    }
+
+    public int getAge() {
+        return age;
     }
 }

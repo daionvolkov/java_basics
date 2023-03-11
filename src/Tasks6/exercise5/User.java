@@ -9,9 +9,10 @@ public class User {
     public void setInfo() {
         age = scan.nextInt();
     }
-    public void printInfo(){
+
+    public void printInfo() {
         String s = String.valueOf(age);
-        System.out.println("Ваозраст пользователя: "+ s);
+        System.out.println("Возраст пользователя: " + s);
     }
 
 }

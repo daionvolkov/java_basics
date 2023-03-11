@@ -5,10 +5,12 @@ import java.util.Scanner;
 public class NewUser extends User{
     String name;
     @Override
-    public void setAge() {
+    public void setInfo() {
         name = scan.nextLine();
     }
-    public void getInfo() {
-        System.out.printf(name);
+    @Override
+    public void printInfo() {
+        String s = String.valueOf(name);
+        System.out.println("Имя пользователя: "+s);
     }
 }

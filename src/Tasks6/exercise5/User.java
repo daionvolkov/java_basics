@@ -3,9 +3,15 @@ package Tasks6.exercise5;
 import java.util.Scanner;
 
 public class User {
-    int age;
+    int age = 0;
     Scanner scan = new Scanner(System.in);
-    public void setAge() {
+
+    public void setInfo() {
         age = scan.nextInt();
     }
+    public void printInfo(){
+        String s = String.valueOf(age);
+        System.out.println("Ваозраст пользователя: "+ s);
+    }
+
 }

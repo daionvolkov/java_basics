@@ -10,13 +10,10 @@ public class BankEmployee extends Human {
     public String getBankName() {return bankName;}
     @Override
     public void showInfo() {
-        System.out.println("Имя сотрудника банка: " +getName());
-        System.out.println("Фамилия сотрудника банка: "+getSurname());
-        System.out.println("Название банка: "+getBankName());
+        System.out.println("Имя сотрудника банка: " +getName()+", Фамилия сотрудника банка: "+getSurname()+", Название банка: "+getBankName());
     }
-
     @Override
     public void showDescription() {
-        System.out.println("Сотрудник банка");
+        System.out.println(" Сотрудник банка ");
     }
 }

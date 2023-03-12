@@ -15,7 +15,7 @@ public abstract class Human implements About {
         this.surname = surname;
 
     }
-    abstract void showInfo();
+    public abstract void showInfo();
 
 }
 

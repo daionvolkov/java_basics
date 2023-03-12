@@ -8,12 +8,8 @@ public class Main {
         user.setInfo();
         user.printInfo();
 
-
         User newUser = new NewUser();
         newUser.setInfo();
         newUser.printInfo();
-
-
     }
-
 }

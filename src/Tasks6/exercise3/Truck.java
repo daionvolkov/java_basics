@@ -10,6 +10,10 @@ public class Truck extends Car{
     }
     public void  newWheels(int wheelsCount) {
         this.wheelsCount = wheelsCount;
-        System.out.println(wheelsCount);
+        System.out.println(this.wheelsCount);
+    }
+    public void showInfo() {
+        super.outPut();
+        System.out.println("Количество колес: "+wheelsCount + "Максимальный вес: "+ maxWeight);
     }
 }

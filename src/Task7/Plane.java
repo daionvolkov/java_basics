@@ -2,15 +2,21 @@ package Task7;
 
 public class Plane {
 
-    public static class Wing {
+    public class Wing {
         int wingWeight;
 
-        void setWingWeight(int wingWeight) {
+        public Wing(int wingWeight) {
             this.wingWeight = wingWeight;
         }
 
-        void getWingWeight() {
+        void printWingWeight() {
             System.out.println(wingWeight);
         }
     }
+
+    public void getWingWeight(int wingWeight) {
+        Wing wing = new Wing(wingWeight);
+        wing.printWingWeight();
+    }
+
 }

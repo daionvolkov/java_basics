@@ -2,8 +2,15 @@ package Task7;
 
 public class Main {
 
-    Plane.Wing rightWing = new Plane.Wing();
-    Plane.Wing leftWing = new Plane.Wing();
+    public static void main(String[] args) {
+        Plane boing = new Plane();
+        boing.getWingWeight(1000);
+
+        Plane airbus = new Plane();
+        airbus.getWingWeight(2000);
+
+
+    }
 
 
 }

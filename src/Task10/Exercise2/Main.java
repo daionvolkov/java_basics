@@ -10,6 +10,6 @@ public class Main {
         text.add("Hello");
         text.add("Hello");
         text.add("Hello");
-        Write.WriteFile(text, filename);
+        Write.writeFile(text, filename);
     }
 }

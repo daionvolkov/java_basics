@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Replace {
 
-    public static void ReplaceElements(String filename) {
+    public static void replaceElements(String filename) {
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             List<String> text = new ArrayList<>();
             List<String> newText = new ArrayList<>();
@@ -19,7 +19,8 @@ public class Replace {
                 for (int i = 0; i < word.length(); i++) {
                     if (!Character.isAlphabetic(word.charAt(i)) || !Character.isDigit(word.charAt(i))) {
                         newText.add(word = word.replace(word.charAt(i), '$'));
-                    } else {
+                    }
+                    else {
                         newText.add(word);
                     }
                 }

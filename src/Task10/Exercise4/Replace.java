@@ -28,12 +28,9 @@ public class Replace {
                 for (String st : newText) {
                     writer.write(st + "\n");
                 }
-
             } catch (IOException ex) {
                 System.out.println(ex.getMessage());
-
             }
-
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }

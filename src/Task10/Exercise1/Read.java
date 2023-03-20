@@ -8,8 +8,7 @@ import java.util.List;
 
 public class Read {
 
-    public static ArrayList ReadFile(String file) {
-
+    public static List readFile(String file) {
 
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             List<String> text = new ArrayList<>();
@@ -17,14 +16,10 @@ public class Read {
             while ((input = reader.readLine()) != null) {
                 text.add(input);
             }
-            return (ArrayList) text;
-
+            return text;
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
-
-        return null;
+        return new ArrayList<>();
     }
-
-
 }

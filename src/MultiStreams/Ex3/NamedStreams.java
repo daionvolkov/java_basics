@@ -16,6 +16,7 @@ public class NamedStreams extends Thread {
                 System.out.println(name);
                 notify();
                 try {
+                    Thread.sleep(100);
                     wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();

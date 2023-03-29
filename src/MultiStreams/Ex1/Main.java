@@ -6,7 +6,7 @@ public class Main {
             TenStreams thread = new TenStreams();
             System.out.println("Thread " + i + " " + thread.getState());
             thread.start();
-            System.out.println("Thread " + i + " started");
+            System.out.println("Thread " + i + " "+thread.getState());
         }
     }
 }

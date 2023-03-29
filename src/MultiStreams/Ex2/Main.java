@@ -5,25 +5,28 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Counter counter = new Counter();
-        for (int i = 0; i < 100; i++) {
 
-            Thread threads = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    for (int j = 0; j < 1000; j++) {
-                        counter.increment();
+        Counter count = new Counter();
+        Thread[] threads = new Thread[100];
+        for (int i = 0; i < 100; i++) {
+            threads[i] = new Thread(() -> {
+                for (int j = 0; j < 1000; j++) {
+                    synchronized (count) {
+                        count.increment();
                     }
                 }
             });
-            threads.start();
+            threads[i].start();
+        }
+        for (Thread thread : threads) {
             try {
-                Thread.sleep(100);
+                thread.join();
             } catch (InterruptedException e) {
                 System.out.println(e.getMessage());
             }
+
         }
-        System.out.println(counter.getCount());
+        System.out.println(count.getCount());
     }
 }
 

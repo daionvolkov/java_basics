@@ -10,10 +10,10 @@ public class TenStreams extends Thread {
             try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
-                System.out.println(Thread.currentThread().getName() + " " + Thread.currentThread().isInterrupted());
+                System.out.println(Thread.currentThread().getName() + " " + Thread.currentThread().getState());
                 break;
             }
         }
-        System.out.println(Thread.currentThread().getName() + "finished");
+        System.out.println(Thread.currentThread().getName() + " " + Thread.currentThread().getState());
     }
 }
